@@ -1,0 +1,72 @@
+/* 
+Media Queries Screen Sizes 
+*/
+
+/* Global Rules */
+:root {
+    --font-color: #fcfcfd;
+    --p-color: #999999;
+    --main-color: #021d3d;
+    --accent-color: #0f2847;
+    --accent-color-alt: #032a5a;
+    --secondary-color:#107bf0;
+    --secondary-color-alt:#50ddf4;
+    --bg-1: #394e6791;
+    --bg-2: #78869770;
+    --bg-3: #9ca4b388;
+    /*Fonts*/
+    --font-1: 'Open Sans', sans-serif;
+    --font-2: 'Phudu', cursive;
+    /*ContainerWidth*/
+    --container-lg: 85%;
+    --container-md: 90%;
+    --container-sm: 96%;
+    /* transition */
+    --general-transition : all 0.4s ease;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+
+
+@media (max-width: 575px) {
+    
+}
+
+/* 481px — 768px: iPads, Tablets. */
+@media (max-width: 767px) {
+
+}
+
+/* 769px — 1024px: Small screens, laptops */
+@media (max-width: 991px) {
+    .container-nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+/* 1025px — 1200px: Desktops, large screens */
+@media (max-width: 1199px) {
+    
+}
